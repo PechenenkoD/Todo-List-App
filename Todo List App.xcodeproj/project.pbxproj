@@ -14,6 +14,7 @@
 		192715BE2B120A2E000A29F3 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192715BD2B120A2E000A29F3 /* ListRowView.swift */; };
 		192715C02B121201000A29F3 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192715BF2B121201000A29F3 /* AddView.swift */; };
 		192715C32B1220F9000A29F3 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192715C22B1220F9000A29F3 /* ItemModel.swift */; };
+		192715C62B124C5F000A29F3 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192715C52B124C5F000A29F3 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		192715BD2B120A2E000A29F3 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		192715BF2B121201000A29F3 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		192715C22B1220F9000A29F3 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		192715C52B124C5F000A29F3 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		192715AB2B12043B000A29F3 /* Todo List App */ = {
 			isa = PBXGroup;
 			children = (
+				192715C42B124C35000A29F3 /* ViewModels */,
 				192715C12B1220A9000A29F3 /* Models */,
 				192715BA2B120811000A29F3 /* Views */,
 				192715AC2B12043B000A29F3 /* Todo_List_AppApp.swift */,
@@ -90,6 +93,14 @@
 				192715C22B1220F9000A29F3 /* ItemModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		192715C42B124C35000A29F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				192715C52B124C5F000A29F3 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			files = (
 				192715C32B1220F9000A29F3 /* ItemModel.swift in Sources */,
 				192715C02B121201000A29F3 /* AddView.swift in Sources */,
+				192715C62B124C5F000A29F3 /* ListViewModel.swift in Sources */,
 				192715AD2B12043B000A29F3 /* Todo_List_AppApp.swift in Sources */,
 				192715BC2B120833000A29F3 /* ListView.swift in Sources */,
 				192715BE2B120A2E000A29F3 /* ListRowView.swift in Sources */,
